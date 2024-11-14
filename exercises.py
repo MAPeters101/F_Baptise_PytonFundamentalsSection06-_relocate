@@ -63,7 +63,9 @@ But you want your string to be nicely formatted for display purposes, so you
 want to limit displaying possible digits after the decimal point in all your 
 values to 4 digits.
 """
-
+a = 5
+b = 10
+print(f'{a:.4f} / {b:.4f} = {a/b:.4f}')
 
 
 
