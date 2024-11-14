@@ -14,8 +14,16 @@ look like:
 solve this.]
 s = 'Π, ύ, θ, ω, ν'
 """
-
-
+s = 'Π, ύ, θ, ω, ν'
+characters = s.split(', ')
+codepoint = [hex(ord(char)) for char in characters]
+lower_chars = [char.lower() for char in characters]
+upper_chars = [char.upper() for char in characters]
+print(characters)
+print(codepoint)
+print(lower_chars)
+print(upper_chars)
+print()
 
 
 
