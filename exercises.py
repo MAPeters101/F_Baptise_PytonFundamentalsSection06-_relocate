@@ -42,8 +42,16 @@ But if a is 31, then the same code should print:
 
 'The number 31 is not even'
 """
+a = 41
+if a%2 == 0:
+    print(f'The number {a} is even')
+else:
+    print(f'The number {a} is not even')
+print()
 
-
+print('The number {} {} even'.format(a, 'is' if a%2 == 0 else ' is not'))
+print(f'The number {a} {'is' if a%2 == 0 else ' is not'} even')
+print()
 
 """
 Question 3
